@@ -1,0 +1,10 @@
+<?php
+
+use Drupal\comment\CommentInterface;
+
+
+function movieguide_custom_comment_presave(CommentInterface $comment)
+{
+
+}
+

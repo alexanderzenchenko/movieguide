@@ -1,0 +1,6 @@
+movieguide.admin:
+    title: 'Movie Guide settings'
+    description: 'Imdb api key setting'
+    parent: system.admin_config_development
+    route_name: movieguide.admin_api_settings
+    weight: 100
