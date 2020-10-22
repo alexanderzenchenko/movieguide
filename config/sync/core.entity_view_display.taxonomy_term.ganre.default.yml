@@ -1,0 +1,21 @@
+uuid: 52de8dcc-0c0b-4d80-a39d-cbe772e7adc9
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.ganre
+  module:
+    - text
+id: taxonomy_term.ganre.default
+targetEntityType: taxonomy_term
+bundle: ganre
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }
