@@ -1,0 +1,23 @@
+uuid: 561aac71-31c3-4929-8831-56a51c3ef936
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.film
+    - field.storage.comment.field_rank
+id: comment.film.field_rank
+field_name: field_rank
+entity_type: comment
+bundle: film
+label: Rank
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: 10
+  prefix: ''
+  suffix: ''
+field_type: integer

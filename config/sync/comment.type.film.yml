@@ -1,0 +1,8 @@
+uuid: 3b4441cb-2e48-4bdc-aaf7-0941866b5234
+langcode: en
+status: true
+dependencies: {  }
+id: film
+label: 'Film comment'
+target_entity_type_id: node
+description: ''

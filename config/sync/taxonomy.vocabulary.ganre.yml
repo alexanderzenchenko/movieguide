@@ -1,0 +1,8 @@
+uuid: 5a325d5c-71e3-4e8c-8d48-46951a07cc55
+langcode: en
+status: true
+dependencies: {  }
+name: Genre
+vid: ganre
+description: ''
+weight: 0
