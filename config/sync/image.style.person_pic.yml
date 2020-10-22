@@ -1,0 +1,15 @@
+uuid: 4c0165f4-46be-4e6c-a0a5-a733541c40ce
+langcode: en
+status: true
+dependencies: {  }
+name: person_pic
+label: 'Person picture'
+effects:
+  704aa915-1e58-4d77-85e5-5fc82b2c1f83:
+    uuid: 704aa915-1e58-4d77-85e5-5fc82b2c1f83
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 214
+      height: 317
+      anchor: center-center
