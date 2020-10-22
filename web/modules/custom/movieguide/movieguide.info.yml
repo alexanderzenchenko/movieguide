@@ -1,0 +1,8 @@
+name: Movie Guide Module
+description: Custom module
+package: Custom
+
+type: module
+core: 8.x
+
+configure: moviguide.admin_api_settings

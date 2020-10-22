@@ -1,0 +1,7 @@
+movieguide.admin_api_settings:
+    path: '/admin/config/services/movieguide_api_form'
+    defaults:
+      _form: '\Drupal\movieguide\Form\MovieGuideApiSettings'
+      _title: 'Movie Guide API key settings'
+    requirements:
+      _permission: 'administer site configuration'

@@ -1,0 +1,51 @@
+uuid: 62086fe1-7914-44e9-9334-4b06c1f98952
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.person.body
+    - field.field.node.person.field_date_of_birth
+    - field.field.node.person.field_photo
+    - image.style.person_pic
+    - node.type.person
+  module:
+    - datetime
+    - image
+    - text
+    - user
+id: node.person.default
+targetEntityType: node
+bundle: person
+mode: default
+content:
+  body:
+    label: above
+    type: text_default
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_date_of_birth:
+    weight: 2
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_photo:
+    weight: 1
+    label: above
+    settings:
+      image_style: person_pic
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

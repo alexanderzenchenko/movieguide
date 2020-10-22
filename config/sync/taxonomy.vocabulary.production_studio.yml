@@ -1,0 +1,8 @@
+uuid: 7230f191-d2a9-43e1-bd0f-4074c7d48a30
+langcode: en
+status: true
+dependencies: {  }
+name: 'Production Studio'
+vid: production_studio
+description: ''
+weight: 0

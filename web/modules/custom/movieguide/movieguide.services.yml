@@ -1,0 +1,4 @@
+services:
+  movieguide.imdb_api_service:
+    class: \Drupal\movieguide\Services\APIClientService\ImdbAPIClient
+    arguments: ['@http_client', '@config.factory']
