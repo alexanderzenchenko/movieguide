@@ -1,0 +1,55 @@
+uuid: ecb14da5-793b-421d-8122-50c57d539220
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.production_studio.field_logo
+    - image.style.thumbnail
+    - taxonomy.vocabulary.production_studio
+  module:
+    - image
+    - path
+    - text
+id: taxonomy_term.production_studio.default
+targetEntityType: taxonomy_term
+bundle: production_studio
+mode: default
+content:
+  description:
+    type: text_textarea
+    weight: 2
+    region: content
+    settings:
+      placeholder: ''
+      rows: 5
+    third_party_settings: {  }
+  field_logo:
+    weight: 1
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 4
+    region: content
+    third_party_settings: {  }
+hidden: {  }
