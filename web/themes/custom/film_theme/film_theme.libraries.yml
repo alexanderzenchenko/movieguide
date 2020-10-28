@@ -1,0 +1,10 @@
+style:
+  version: VERSION
+  css:
+    theme:
+      assets/css/film_theme.style.css: {}
+  js:
+    assets/js/film_theme.script.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal

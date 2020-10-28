@@ -1,0 +1,5 @@
+# Schema for the configuration files of the film_theme theme.
+
+film_theme.settings:
+  type: theme_settings
+  label: 'film_theme settings'
