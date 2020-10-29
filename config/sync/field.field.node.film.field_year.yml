@@ -1,0 +1,21 @@
+uuid: 6a467ef8-8378-4501-9a1e-2722b20bf1ae
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_year
+    - node.type.film
+  module:
+    - datetime
+id: node.film.field_year
+field_name: field_year
+entity_type: node
+bundle: film
+label: Year
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime
