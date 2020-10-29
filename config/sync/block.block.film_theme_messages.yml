@@ -1,0 +1,22 @@
+uuid: 1894ca95-3fda-4cad-ab42-b62d7b50aee7
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - film_theme
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: film_theme_messages
+theme: film_theme
+region: navbar_branding
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

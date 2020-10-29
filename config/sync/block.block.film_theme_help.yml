@@ -1,0 +1,22 @@
+uuid: 06b6115d-ebbd-445a-9c41-9166d7b5948b
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - film_theme
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: film_theme_help
+theme: film_theme
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

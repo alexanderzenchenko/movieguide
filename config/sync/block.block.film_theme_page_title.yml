@@ -1,0 +1,20 @@
+uuid: c30d07b1-c58d-4e55-9c63-77f58e1a036c
+langcode: en
+status: true
+dependencies:
+  theme:
+    - film_theme
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: film_theme_page_title
+theme: film_theme
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }
