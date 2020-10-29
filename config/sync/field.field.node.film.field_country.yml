@@ -1,0 +1,29 @@
+uuid: f366a670-9e55-4c2a-94c3-2e6c6ce46fe6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_country
+    - node.type.film
+    - taxonomy.vocabulary.country
+id: node.film.field_country
+field_name: field_country
+entity_type: node
+bundle: film
+label: Country
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      country: country
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
