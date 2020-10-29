@@ -3,15 +3,15 @@ langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_display.comment.comment.default
     - field.field.node.article.body
-    - field.field.node.article.field_connection
-    - field.field.node.article.field_date_of_birth
+    - field.field.node.article.comment
     - field.field.node.article.field_image
-    - field.field.node.article.field_title
+    - field.field.node.article.field_tags
     - image.style.large
     - node.type.article
   module:
-    - datetime
+    - comment
     - image
     - text
     - user
@@ -23,46 +23,41 @@ bundle: article
 mode: default
 content:
   body:
-    type: text_summary_or_trimmed
-    weight: 2
+    type: text_default
+    weight: 0
     region: content
-    settings:
-      trim_length: 600
+    settings: {  }
     third_party_settings: {  }
-    label: inline
-  field_connection:
-    weight: 3
     label: hidden
-    settings:
-      link: true
-    third_party_settings: {  }
-    type: entity_reference_label
+  comment:
+    type: comment_default
+    weight: 110
     region: content
-  field_date_of_birth:
-    weight: 4
     label: above
     settings:
-      format_type: medium
-      timezone_override: ''
+      view_mode: default
+      pager_id: 0
     third_party_settings: {  }
-    type: datetime_default
-    region: content
   field_image:
     type: image
-    weight: 0
+    weight: -1
     region: content
     settings:
       image_style: large
       image_link: ''
     third_party_settings: {  }
-    label: above
-  field_title:
-    weight: 1
-    label: inline
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-    type: string
+    label: hidden
+  field_tags:
+    type: entity_reference_label
+    weight: 10
     region: content
-hidden:
-  links: true
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }
