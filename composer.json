@@ -26,6 +26,7 @@
         "drupal/pathauto": "^1.8",
         "drupal/radix": "^4.10",
         "drupal/video_embed_field": "^2.4",
+        "drupal/views_contextual_filters_or": "^1.2",
         "drush/drush": "^9.7.1 | ^10.0.0",
         "vlucas/phpdotenv": "^4.0",
         "webflo/drupal-finder": "^1.0.0",
