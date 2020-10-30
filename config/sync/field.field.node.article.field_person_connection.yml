@@ -1,0 +1,28 @@
+uuid: a176b392-eed7-4eac-9341-c7019b9e0aab
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_person_connection
+    - node.type.article
+    - node.type.person
+id: node.article.field_person_connection
+field_name: field_person_connection
+entity_type: node
+bundle: article
+label: 'Person Connection'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      person: person
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

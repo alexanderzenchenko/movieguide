@@ -1,0 +1,28 @@
+uuid: bc8d85ee-d62e-4b1c-a0e1-57239eec8ea6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_film_connection
+    - node.type.article
+    - node.type.film
+id: node.article.field_film_connection
+field_name: field_film_connection
+entity_type: node
+bundle: article
+label: 'Film Connection'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      film: film
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
