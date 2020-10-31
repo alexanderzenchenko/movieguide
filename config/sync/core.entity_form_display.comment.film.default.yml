@@ -5,6 +5,7 @@ dependencies:
   config:
     - comment.type.film
     - field.field.comment.film.comment_body
+    - field.field.comment.film.field_comment_film
     - field.field.comment.film.field_rank
   module:
     - text
@@ -15,9 +16,9 @@ mode: default
 content:
   author:
     weight: -2
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
   comment_body:
     type: text_textarea
     weight: 11
@@ -26,6 +27,16 @@ content:
       placeholder: ''
     third_party_settings: {  }
     region: content
+  field_comment_film:
+    weight: 13
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
   field_rank:
     weight: 12
     settings:
@@ -33,12 +44,5 @@ content:
     third_party_settings: {  }
     type: number
     region: content
-  subject:
-    type: string_textfield
-    weight: 10
-    region: content
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-hidden: {  }
+hidden:
+  subject: true
