@@ -1,0 +1,34 @@
+uuid: b71052eb-60af-4453-ae74-443e9bd9c0e9
+langcode: en
+status: true
+dependencies: {  }
+id: editor
+label: Editor
+weight: 3
+is_admin: null
+permissions:
+  - RAC_view_editor
+  - 'access content overview'
+  - 'administer comments'
+  - 'delete terms in tags'
+  - 'edit any article content'
+  - 'edit any film content'
+  - 'edit any page content'
+  - 'edit any person content'
+  - 'edit own article content'
+  - 'edit own comments'
+  - 'edit own film content'
+  - 'edit own page content'
+  - 'edit own person content'
+  - 'edit terms in country'
+  - 'edit terms in ganre'
+  - 'edit terms in production_studio'
+  - 'edit terms in tags'
+  - 'revert article revisions'
+  - 'revert film revisions'
+  - 'revert page revisions'
+  - 'revert person revisions'
+  - 'view article revisions'
+  - 'view film revisions'
+  - 'view page revisions'
+  - 'view person revisions'

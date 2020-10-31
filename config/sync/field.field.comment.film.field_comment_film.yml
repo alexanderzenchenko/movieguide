@@ -1,0 +1,28 @@
+uuid: 01c5334b-a285-4848-abe7-4ef42847bbe8
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.film
+    - field.storage.comment.field_comment_film
+    - node.type.film
+id: comment.film.field_comment_film
+field_name: field_comment_film
+entity_type: comment
+bundle: film
+label: comment_film
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      film: film
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

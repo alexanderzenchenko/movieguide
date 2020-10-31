@@ -1,0 +1,54 @@
+uuid: 921305f6-0482-4dd8-946b-3cf29d5398f2
+langcode: en
+status: true
+dependencies: {  }
+id: moderator
+label: Moderator
+weight: 4
+is_admin: null
+permissions:
+  - RAC_view_moderator
+  - 'access content overview'
+  - 'administer content types'
+  - 'administer nodes'
+  - 'bypass node access'
+  - 'create article content'
+  - 'create film content'
+  - 'create page content'
+  - 'create person content'
+  - 'delete all revisions'
+  - 'delete any article content'
+  - 'delete any film content'
+  - 'delete any page content'
+  - 'delete any person content'
+  - 'delete article revisions'
+  - 'delete film revisions'
+  - 'delete own article content'
+  - 'delete own film content'
+  - 'delete own page content'
+  - 'delete own person content'
+  - 'delete page revisions'
+  - 'delete person revisions'
+  - 'delete terms in tags'
+  - 'edit any article content'
+  - 'edit any film content'
+  - 'edit any page content'
+  - 'edit any person content'
+  - 'edit own article content'
+  - 'edit own film content'
+  - 'edit own page content'
+  - 'edit own person content'
+  - 'edit terms in country'
+  - 'edit terms in ganre'
+  - 'edit terms in production_studio'
+  - 'edit terms in tags'
+  - 'revert all revisions'
+  - 'revert article revisions'
+  - 'revert film revisions'
+  - 'revert page revisions'
+  - 'revert person revisions'
+  - 'view all revisions'
+  - 'view article revisions'
+  - 'view film revisions'
+  - 'view page revisions'
+  - 'view person revisions'

@@ -9,6 +9,10 @@ label: 'Authenticated user'
 weight: 1
 is_admin: false
 permissions:
+  - 'RAC update administrator'
+  - 'RAC update anonymous'
+  - 'RAC update authenticated'
+  - RAC_view_authenticated
   - 'access comments'
   - 'access content'
   - 'access shortcuts'

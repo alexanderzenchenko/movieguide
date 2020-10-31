@@ -9,6 +9,10 @@ label: 'Anonymous user'
 weight: 0
 is_admin: false
 permissions:
+  - 'RAC update administrator'
+  - 'RAC update anonymous'
+  - 'RAC update authenticated'
+  - RAC_view_anonymous
   - 'access comments'
   - 'access content'
   - 'access site-wide contact form'
